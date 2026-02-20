@@ -16,7 +16,7 @@ const projects = [
     title: "Calculator",
     description: "A short description of the project. Data viz and ML.",
     image: "./calculator.jpg",
-    link: "https://github.com/Birhanu-Solomon/Birhanu-Solomon-CalculatorJS123"
+    link: "https://birhanu-solomon.github.io/flutter-calculator-logic/"
   },
   {
     id: 3,
@@ -203,5 +203,6 @@ I love turning ideas into real, working products.
     </div>
   );
 }
+
 
 
