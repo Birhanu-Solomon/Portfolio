@@ -7,21 +7,21 @@ const projects = [
   {
     id: 1,
     title: "Inventory management system",
-    description: "A short description of project one. Tech: React, Node.js.",
+    description: "A short description of the project. Tech: React, Node.js.",
     image: "./inventory.jpg",
     link: "https://github.com/betresh/Inventory_Managment_System_2024_25"
   },
   {
     id: 2,
     title: "Calculator",
-    description: "A short description of project two. Data viz and ML.",
+    description: "A short description of the project. Data viz and ML.",
     image: "./calculator.jpg",
     link: "https://github.com/Birhanu-Solomon/Birhanu-Solomon-CalculatorJS123"
   },
   {
     id: 3,
     title: "Online Shopping",
-    description: "A short description of project three. Mobile and API.",
+    description: "A short description of the project. Mobile and API.",
     image: "./online.jpg",
     link: "https://birhanu-solomon.github.io/Online-shopping/"
   }
@@ -31,7 +31,7 @@ export default function PortfolioClone() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 text-gray-900">
       <header className="max-w-6xl mx-auto px-6 py-8 flex items-center justify-between">
-        <h1 className="text-2xl font-extrabold">Birhanu<span className="text-indigo-600">.</span></h1>
+        <h1 className="text-2xl font-extrabold">Birhanu Solomon<span className="text-indigo-600"></span></h1>
         <nav className="space-x-6 hidden md:block">
           <a href="#about" className="hover:text-indigo-600">About</a>
           <a href="#projects" className="hover:text-indigo-600">Projects</a>
@@ -51,7 +51,7 @@ export default function PortfolioClone() {
               className="text-4xl md:text-5xl font-extrabold leading-tight"
             >
               Hi — I'm Birhanu,
-              <br /> a software engineer dedicated to designing and developing products that are both aesthetic and useful.
+              <br /> a flutter developer dedicated to designing and developing products that are both aesthetic and useful.
             </motion.h2>
 
             <p className="mt-6 text-gray-600 max-w-xl">
@@ -108,7 +108,7 @@ export default function PortfolioClone() {
   <div className="bg-white p-6 rounded-2xl shadow-sm">
     <h3 className="text-2xl font-semibold">About me</h3>
     <p className="mt-4 text-gray-600">
-    I’m an aspiring software developer
+    I’m an aspiring flutter developer
 who enjoys building simple, useful projects.
 I’m still learning and improving every day.
 I love turning ideas into real, working products.
@@ -121,7 +121,7 @@ I love turning ideas into real, working products.
       </div>
       <div className="text-center">
         <div className="text-sm text-gray-500">Primary</div>
-        <div className="font-bold">Web Development</div>
+        <div className="font-bold">Flutter Development</div>
       </div>
       <div className="text-center">
         <div className="text-sm text-gray-500">Open to</div>
@@ -203,4 +203,5 @@ I love turning ideas into real, working products.
     </div>
   );
 }
+
 
