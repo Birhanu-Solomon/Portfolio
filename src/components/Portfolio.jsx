@@ -23,7 +23,7 @@ const projects = [
     title: "Online Shopping",
     description: "A short description of project three. Mobile and API.",
     image: "./online.jpg",
-    link: "https://github.com/Birhanu-Solomon/BirhanuSolomon_online-shop09"
+    link: "https://birhanu-solomon.github.io/Online-shopping/"
   }
 ];
 
@@ -203,3 +203,4 @@ I love turning ideas into real, working products.
     </div>
   );
 }
+
